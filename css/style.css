@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 5vh;
+    width: 1000px;
+}
+
+
+header .tds-link {
+    color: #696969;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+
+main{
+    height: 95vh;
+    width: 100vw;
+    background-image: url(../img/tela-tesla.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Menu Inicial */
+
+.menu-inicial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    margin-top: -20px;
+    height: 100px;
+}
+
+.menu button {
+    margin-top: -20px;
+    background-color: #0000000d;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* Menu 2 */
+
+.menu-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-principal {
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+.linha-2 {
+    font-size: 20px;
+    display: flex;
+    gap: 4px;
+    color: #696969;
+}
+
+.linha-2 button {
+    background-color: transparent;
+    color: #696969;
+    border-top: none;
+    font-size: 20px;
+}
+
+
+/* btns */
+
+.btns {
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns button {
+    padding: 12px 80px;
+    margin-left: 18px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-1 {
+    background-color: #171a20cc;
+    color: #fff;
+}
+
+
+.btn-2 {
+    background-color: #f4f4f4a6;
+    color: black;
+}
